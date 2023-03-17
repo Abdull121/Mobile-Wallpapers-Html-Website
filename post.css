@@ -22,41 +22,7 @@
     
     
   }
-  /* search bar start */
-
-  .search-box{
-    position: relative;
-    margin: 0px 10px;
-    height: 45px;
-    max-width: 400px;
-    
-    margin-bottom: 40px;
-    top:120px;
-    z-index: 1;
-}
-.search-box input{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    outline: none;
-    border: none;
-    background-color: #323334;
-    padding: 0 15px 0 45px;
-    color: #fff;
-    border-radius: 6px;
-    
-}
-.search-box i{
-    position: absolute;
-    z-index: 2;
-    color: #999;
-    top: 50%;
-    left: 15px;
-    font-size: 20px;
-    transform: translateY(-50%);
-}
-
-/* search bar end */
+  
 
 
 
