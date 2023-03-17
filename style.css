@@ -3,6 +3,17 @@
 * {
     box-sizing: border-box;
   }
+  #preloader {
+    background-color: #000000;
+    background-image: url("logo/preloader.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
   header{
    background-color: #000000;
    height: 13vh;

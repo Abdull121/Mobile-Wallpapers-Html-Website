@@ -27,8 +27,10 @@
 
   gtag('config', 'G-KKF3QW40J4');
 </script>
+<!-- Google tag end -->
 </head>
 <body>
+    <div id="preloader"></div>
     <header>
        
         
@@ -538,7 +540,13 @@
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+
 }
+// preloder
+var loader = document.getElementById("preloader");
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
 
 </script>
     <!-- side nav end -->
