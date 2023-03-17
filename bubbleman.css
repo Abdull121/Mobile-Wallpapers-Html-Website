@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  header{
+   background-color: #000000;
+   height: 13vh;
+    
+   width: 100%;
+   position: fixed;
+   z-index: 3;
+ 
+   
+  }
+  
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    
+  }
+
+
+
+
+  /* DOWNLOAD BUTTON start here */
+  .download-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .download-btn{
+    position: relative;
+    background: #4285F4;
+    color: #fff;
+    width: 260px;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    transition: background 0.3s ease;
+    margin-bottom: 50px;
+  }
+  
+  .download-btn:hover{
+    background: #2874F3;
+  }
+  
+  .download-btn i{
+    margin-left: 5px;
+
+  }
+  
+  .countdown{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .countdown span{
+    color: #0693F6;
+    font-size: 1.3em;
+    font-weight: 800;
+  }
+  
+  .pleaseWait-text{
+    font-size: 1em;
+    font-weight: 600;
+    display: none;
+    color: #fff;
+  }
+  
+  .manualDownload-text{
+    font-size: 1.1em;
+    font-weight: 600;
+    display: none;
+    color: #fff;
+    text-align: center;
+    
+  }
+  
+  .manualDownload-link{
+    color: #0693F6;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  /* END DOWNLOAD BUTTON */
+
+
+
+
+
+
+
+
+  /* ******* MINA IMAGE******* */
+
+  .main-picture{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding-top: 80px;
+  
+    
+  }
+
+
+
+  .download-pic > img{
+    width: 300px;
+   height: 600px;
+   border-radius: 25px;
+   object-fit: cover;
+  }
+   /* ******* MINA IMAGE END******* */
+ 
+
+
+ /* side nav  */
+ .sidenav, #display{
+  display: none;
+}
+
+
+
+nav ul{
+display: flex;
+justify-content: center;
+gap:5rem;
+flex-wrap: wrap;
+padding: 30px;
+}
+li{
+  list-style: none;
+}
+
+ul a{
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+nav a {
+  color: rgb(255, 255, 255);
+}
+nav a:hover{
+ color: yellow;
+}
+ul{
+  margin: 0px;
+}
+.logo-text{
+margin-top: 10px;
+  position: absolute;
+  top:20px;
+  left: 30px;
+}
+
+nav h1 a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+}
+
+/* search bar start */
+
+.search-box{
+  position: relative;
+  margin: 0px 20px;
+  height: 45px;
+  max-width: 400px;
+  
+  margin-bottom: 40px;
+  top:120px;
+  z-index: 1;
+}
+.search-box input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: #323334;
+  padding: 0 15px 0 45px;
+  color: #fff;
+  border-radius: 6px;
+  
+}
+.search-box i{
+  position: absolute;
+  z-index: 2;
+  color: #999;
+  top: 50%;
+  left: 15px;
+  font-size: 20px;
+  transform: translateY(-50%);
+}
+/* search bar end */
+
+
+.content{
+
+ position: relative;
+bottom: 10px;
+ padding-top: 120px;
+
+ 
+}
+.cardbox{
+  height: 600px;
+  width: 300px;
+  border-radius: 25px;
+   margin:20px 25px;
+   overflow: hidden;
+
+ }
+.container1{
+  margin: 50px 0px;
+  padding: 0px;
+  height: 600px;
+ }
+.cardbox img{
+ width: 300px;
+ height: 600px;
+ border-radius: 25px;
+ object-fit: cover;
+ margin-bottom: 50px;
+ transition: transform 0.2s linear;
+ 
+
+}
+/*  */
+
+.img-content{
+ position: relative;;
+ bottom: 200px;
+ left: 50px;
+}
+.img-content a{
+ color: #fff;
+ text-decoration: none;
+
+}
+.cardbox img:hover{
+ cursor: pointer;
+ transform: scale(1.05);
+ 
+
+}
+.cardbox h6{
+  position: relative;
+  bottom: 135px;
+  left: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+
+ }
+.cardbox img:hover .img-content a{
+display: block;
+}
+.container{
+  margin-bottom: 50px;
+ padding-top: 30px;
+ display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap:20px;
+
+}
+footer{
+background-color: #000000;
+color: white;
+
+}
+span{
+ color: rgb(73, 224, 27);
+}
+
+
+.footer-area .pageinformation{
+padding-top: 50px;
+padding-left: 50px;
+padding-right: 30px;
+height:100% auto ;
+
+}
+.pageinformation h2{
+font-size: 1.6rem;
+
+}
+.pageinformation p{
+padding-bottom: 50px;
+font-size: 1rem;  ;
+line-height: 2rem;
+}
+.bg-co{
+
+background-color: #1a1a1a;
+height: 100%;
+}
+.row{
+display: flex;
+padding-left: 50px;
+gap: 100px;
+
+
+padding-top: 50px;
+font-size: 1rem;
+
+}
+
+.copyright{
+display: flex;
+
+padding: 30px 50px;
+}
+.footer-box-pages ul , .footer-box-get-touch ul{
+padding: 0px;
+
+
+}
+.footer-box-pages ul li a{
+color: greenyellow;
+font-size: 1rem;
+
+
+
+}
+.footer-box-pages ul li a:hover{
+color: #fff;
+
+}
+
+@media(max-width:900px){
+nav ul li{
+  display: none;
+}
+html{
+  font-size: 85%;
+}
+header{
+  height: 100px;
+}
+
+
+
+#display{
+  padding: 0px 8px;
+    float: right  ;
+    margin: 25px 10px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 2px;
+    
+
+}
+.sidenav, #display{
+  display: block;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:#1d1d1d;
+  overflow-x: hidden;
+  transition: 0.6s;
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 23px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  
+
+}
+
+.sidenav a:hover {
+  color: yellow;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 30px;
+
+}
+
+
+.main-nav{
+  display: none;
+}
+.sidenav, #display{
+  display: block;
+  color: #ffffff;
+  
+  
+} 
+
+}
+@media(max-width:600px){
+
+html{
+  font-size: 95%;
+}
+.row{
+  gap:40px;
+  flex-wrap: wrap;
+}
+header{
+  height: 90px;
+}
+
+}
+@media(max-width:350px){
+
+html{
+  font-size: 70%;
+}
+.logo-text{
+  top:5px;
+ 
+}
+#display{
+  
+    margin: 10px 10px;
+
+}
+header{
+  height: 70px;
+}
+
+
+
+}
+
+
+
+
+
+ 
+
