@@ -153,6 +153,7 @@ margin-top: 50px;
    object-fit: cover;
    margin-bottom: 50px;
    transition: transform 0.2s linear;
+  
    
  
  }
@@ -168,15 +169,18 @@ margin-top: 50px;
    text-decoration: none;
 
  }
+ 
 
  .cardbox h6{
   position: relative;
-  bottom: 135px;
+  bottom: 90px;
   left: 20px;
   color: #fff;
   font-size: 18px;
   font-weight: 400;
   text-transform: capitalize;
+  margin: 0px;
+
 
  }
  .cardbox img:hover{
