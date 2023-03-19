@@ -22,7 +22,7 @@
     
    width: 100%;
    position: fixed;
-   z-index: 3;
+   z-index: 30;
  
    
   }
@@ -202,8 +202,6 @@ justify-content: center;
 gap:20px;
   
 }
-
-
 
 
 
