@@ -305,16 +305,21 @@ span{
   padding: 30px 50px;
 }
 .footer-box-pages ul , .footer-box-get-touch ul{
-  padding: 0px;
+ padding: 0px;
  
 
 }
+
 .footer-box-pages ul li a{
   color: greenyellow;
   font-size: 1rem;
   
+  
  
   
+}
+.footer-box-pages li{
+ margin-top: 5px;
 }
 .footer-box-pages ul li a:hover{
   color: #fff;
