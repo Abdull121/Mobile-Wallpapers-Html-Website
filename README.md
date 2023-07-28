@@ -5,6 +5,7 @@ wallpaper website
 
 ![24shots_so](https://github.com/Abdull121/Mobile-Wallpapers-Html-Website/assets/93944428/c0124983-5c6d-4b8e-a7dc-f7c01ad5c152)
 
-![image](https://github.com/Abdull121/Mobile-Wallpapers-Html-Website/assets/93944428/c932f618-48b7-4405-a6aa-12fe62025a05)
+![38shots_so](https://github.com/Abdull121/Mobile-Wallpapers-Html-Website/assets/93944428/eb14ce0d-eaa8-4774-8a4d-f191ee61f39d)
+
 
 
